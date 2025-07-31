@@ -11,28 +11,9 @@ This project performs data cleaning, outlier detection, and visualization on a h
   - Parking distribution (pie chart)
   - Price distribution (histogram)
 
-## Project Structure
-
-```
-housing-analysis/
-├── data/ # CSV dataset
-├── notebooks/ # Original notebook
-├── src/ # Script version of the analysis
-├── README.md
-├── .gitignore
-└── requirements.txt
-```
-
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/housing-analysis.git
-cd housing-analysis
 pip install -r requirements.txt
 python src/analysis.py
 ```
-
-## Dependencies
-
-- pandas
-- matplotlib
